@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:padding="20vp">
+
+    <Button
+        ohos:id="$+id:btn_next_bottom"
+        ohos:height="200vp"
+        ohos:width="match_parent"
+        ohos:margin="10vp"
+        ohos:text="底层按钮：Hello"
+        ohos:text_size="18fp"
+        ohos:text_color="#ffffff"
+        ohos:background_element="#111111"/>
+
+    <Button
+        ohos:id="$+id:btn_next_center"
+        ohos:height="90vp"
+        ohos:width="180vp"
+        ohos:background_element="#555555"
+        ohos:text_color="#ffffff"
+        ohos:text_size="18fp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="中层按钮：Harmony"/>
+
+    <Button
+        ohos:id="$+id:btn_next_top"
+        ohos:height="80vp"
+        ohos:width="160vp"
+        ohos:top_margin="20vp"
+        ohos:layout_alignment="right"
+        ohos:background_element="#aaaaaa"
+        ohos:text_color="#ffffff"
+        ohos:text_size="18fp"
+        ohos:text="顶层按钮：over"
+        />
+
+
+    <TableLayout
+        ohos:height="400vp"
+        ohos:top_margin="200vp"
+        ohos:width="match_parent"
+        ohos:column_count="2"
+        ohos:background_element="$graphic:bg_common"
+        ohos:alignment_type="align_contents"
+        ohos:padding="8vp">
+
+        <Text
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:text_size="15fp"
+            ohos:margin="8vp"
+            ohos:text="1235456"/>
+
+        <Text
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:margin="8vp"
+            ohos:text_size="15fp"
+            ohos:text="1235456"/>
+
+        <Text
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:text_size="15fp"
+            ohos:margin="8vp"
+            ohos:text="1235456"/>
+
+        <Text
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:margin="8vp"
+            ohos:text_size="15fp"
+            ohos:text="1235456"/>
+
+        <Text
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:margin="8vp"
+            ohos:text_size="15fp"
+            ohos:text="1235456"/>
+
+        <Text
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:margin="8vp"
+            ohos:text_size="15fp"
+            ohos:text="1235456"/>
+    </TableLayout>
+
+</StackLayout>

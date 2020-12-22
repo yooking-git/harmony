@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="top"
+    ohos:padding="12vp"
+    ohos:orientation="horizontal">
+
+        <Button
+            ohos:id="$+id:btn_main_hello"
+            ohos:height="50vp"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:bg_btn_common"
+            ohos:text="你好呀~"
+            ohos:text_color="#ffffff"
+            ohos:text_size="15fp"
+            />
+
+        <Button
+            ohos:id="$+id:btn_main_harmony"
+            ohos:height="30vp"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:bg_btn_common"
+            ohos:text="Harmony"
+            ohos:text_color="#ffffff"
+            ohos:text_size="15fp"
+            ohos:left_margin="10vp"
+            />
+
+        <Button
+            ohos:id="$+id:btn_main_next"
+            ohos:height="80vp"
+            ohos:width="100vp"
+            ohos:background_element="$graphic:bg_btn_common"
+            ohos:text="Present"
+            ohos:text_color="#ffffff"
+            ohos:text_size="15fp"
+            ohos:left_margin="10vp"
+            />
+
+</DirectionalLayout>
